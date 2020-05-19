@@ -1,0 +1,6 @@
+{
+  "run_list" : [
+     "recipe[my_apache::pckg_install]", 
+     "recipe[my_apache::install]"
+  ]
+}
